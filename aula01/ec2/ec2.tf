@@ -10,3 +10,5 @@ resource "aws_instance" "workstation" {
     Name = "workstation"
   }
 }
+
+
