@@ -1,4 +1,3 @@
-# Tabelas DynamoDB
 resource "aws_dynamodb_table" "cloudmart_products" {
   name           = "cloudmart-products"
   billing_mode   = "PAY_PER_REQUEST"

@@ -1,0 +1,19 @@
+aws dynamodb put-item --table-name cloudmart-products --item '{"id": {"S": "e9e0774d"}, "name": {"S": "Fruki Guarana"}, "price": {"N": "5"}, "image_url": {"S": "https://example.com/fruki-guarana.jpg"}}'
+
+aws dynamodb put-item --table-name cloudmart-products --item '{"id": {"S": "a87866d8"}, "name": {"S": "Pão Francês"}, "price": {"N": "1.99"}, "image_url": {"S": "https://example.com/pao-frances.jpg"}}'
+
+aws dynamodb put-item --table-name cloudmart-products --item '{"id": {"S": "045c60e6"}, "name": {"S": "Bola quadrada"}, "price": {"N": "1000"}, "image_url": {"S": "https://example.com/bola-quadrada.jpg"}}'
+
+aws dynamodb put-item --table-name cloudmart-products --item '{"id": {"S": "f002d512"}, "name": {"S": "Blusa Preta"}, "price": {"N": "200"}, "image_url": {"S": "https://example.com/blusa-preta.jpg"}}'
+
+aws dynamodb put-item --table-name cloudmart-products --item '{"id": {"S": "dc2ee05b"}, "name": {"S": "Castanha"}, "price": {"N": "1"}, "image_url": {"S": "https://example.com/castanha.jpg"}}'
+
+aws dynamodb put-item --table-name cloudmart-products --item '{"id": {"S": "cab0d712"}, "name": {"S": "Smart Phone"}, "price": {"N": "1344.99"}, "image_url": {"S": "https://example.com/smart-phone.jpg"}}'
+
+aws dynamodb put-item --table-name cloudmart-products --item '{"id": {"S": "a55b3b9d"}, "name": {"S": "Picanha"}, "price": {"N": "100"}, "image_url": {"S": "https://example.com/picanha.jpg"}}'
+
+aws dynamodb put-item --table-name cloudmart-products --item '{"id": {"S": "2a741133"}, "name": {"S": "Picanha"}, "price": {"N": "397.9"}, "image_url": {"S": "https://example.com/picanha-premium.jpg"}}'
+
+aws dynamodb put-item --table-name cloudmart-products --item '{"id": {"S": "f2fc4084"}, "name": {"S": "Iphone 15"}, "price": {"N": "10"}, "image_url": {"S": "https://example.com/iphone15.jpg"}}'
+
+aws dynamodb put-item --table-name cloudmart-products --item '{"id": {"S": "e40a16bf"}, "name": {"S": "pedrocavalc"}, "price": {"N": "100000"}, "image_url": {"S": "https://example.com/pedrocavalc.jpg"}}'
